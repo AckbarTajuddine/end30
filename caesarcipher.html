@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caesar Cipher Cryptography</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="caesar-cipher.js"></script>
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Space Fitness Center</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="home.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">
+          <img id="brand-image" alt="website-logo" src="img/14570630_1202252179795839_5634105449013271084_o.jpg" class="img-responsive" style="width: 150px;">
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="programs.html">Fitness Programs</a></li>        
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="caesarcipher.html">Caesar Cipher</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<style>
+	label{
+		color: black;
+	}
+	input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /*resize: vertical;*/
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+</style>
+<div class="jumbotron">
+	<div class="container-fluid">
+			<div id="main" class="col-lg-6">
+				<article>
+					<h2 style="color: black;">Program</h2>
+					<form action="" method="get" onsubmit="return false;">
+						<table class="noborder">
+							<tbody>
+								<tr>
+									<td><label for="text">Text:</label></td>
+									<td><textarea id="text" cols="50" rows="5" style="width: 40em; height: em;"></textarea></td>
+								</tr>
+								
+								<tr>
+									<td><label for="shift">Shift:</label></td>
+									<td><input type="text" id="shift" value="" style="width: 4em;"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<input type="button" value="Encrypt" onclick="doCrypt(false);"/>
+										<input type="button" value="Decrypt" onclick="doCrypt(true);"/>
+									</td>
+								</tr>
+							</tbody>					
+						</table>
+					</form>
+				</article>
+			</div>
+			<div class="col-lg-6">
+				<h1 style="color: black;">Caesar Cipher</h1>
+				<h2 style="color: black;">Caesar Cipher, also know as caesar's cipher, the shift cipher, caesar's code or caesar shift, is one of the simplest and most widely known encryption teachniques. It is a type of suubstitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.</h2>
+			</div>
+	</div>
+</div>
+</body>
+</html>

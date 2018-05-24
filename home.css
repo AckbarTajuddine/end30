@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+.navbar{
+  padding: 8px 0px 8px 0px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.icon-bar{
+  background-color: white;
+  margin-top: 20px;
+}
+header {
+  background: #55d6aa;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  font-size: 28px;
+}
+nav {
+ background-color:#55d6aa; 
+  min-height: 10px;
+}
+nav li {
+  display: inline-block;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav ul a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+h1{
+  text-align: center;
+  color: #55d6aa;
+}
+.col-lg-6 h1{
+  color: white;
+  text-align: center;
+}
+.col-lg-6 h2{
+  color: white;
+  text-align: center;
+}
+img{
+  align-content: center;
+}
+.col-lg-4 h2{
+  color: white;
+  text-align: center;
+}
+video {
+    width: 70%;
+    height: auto;
+}
+.testform{
+  align-items: center;
+}
+div.form1{
+    display: block;
+    text-align: center;
+}
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.form1 li{
+  color: black;
+}
+textarea:focus, input:focus {
+    color: black;
+}
+
+input, select, textarea{
+    color: #000;
+}
+/*.jumbotron {
+  background-color:#B6FCD5 !important; 
+
+}*/

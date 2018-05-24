@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Space Fitness Center</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="home.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-custom ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">
+          <img id="brand-image" alt="website-logo" src="img/14570630_1202252179795839_5634105449013271084_o.jpg" class="img-responsive" style="width: 150px;">
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="programs.html">Fitness Programs</a></li>        
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="caesarcipher.html">Caesar Cipher</a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class = "container">
+	<div class="wrapper" align="center">
+		<form action="" method="post" name="Login_Form" class="form-signin">       
+		    <h3 class="form-signin-heading">Welcome Back to Space Fitness! Please Sign In</h3>
+			  <hr class="colorgraph"><br>
+			  
+			  <input type="text" class="form-control" name="Username" placeholder="Enter Username" required="" autofocus="" />
+			  <input type="password" class="form-control" name="Password" placeholder="Enter Password" required=""/>     		  
+			 
+			  <button class="btn btn-lg btn-success btn-block"  name="Submit" value="Login" type="Submit">Login</button>  			
+		</form>			
+	</div>
+</div>
+	<style>.wrapper { 
+
+		margin-top: 80px;
+		margin-bottom: 20px;
+	}
+
+	.form-signin {
+	  max-width: 420px;
+	  padding: 30px 38px 66px;
+	  margin: 0 auto;
+	  background-color: #eee;
+	  border: 3px dotted rgba(0,0,0,0.1);  
+	  }
+
+	.form-signin-heading {
+	  text-align:center;
+	  margin-bottom: 30px;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+	}
+
+	input[type="text"] {
+	  margin-bottom: 0px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+	</style>
+</body>
+</html>
